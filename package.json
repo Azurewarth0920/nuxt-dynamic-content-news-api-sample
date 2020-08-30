@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-dynamic-content-news-api-sample",
+  "version": "1.0.0",
+  "description": "Sample news site of dynamic content with the source from news-api.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nuxt",
+    "generate": "nuxt generate",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azurewarth0920/nuxt-dynamic-content-news-api-sample.git"
+  },
+  "author": "pei.fan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Azurewarth0920/nuxt-dynamic-content-news-api-sample/issues"
+  },
+  "homepage": "https://github.com/Azurewarth0920/nuxt-dynamic-content-news-api-sample#readme",
+  "devDependencies": {
+    "axios": "^0.20.0",
+    "dotenv": "^8.2.0",
+    "nuxt": "^2.14.4",
+    "nuxt-dynamic-content": "0.0.1"
+  }
+}
