@@ -28,11 +28,11 @@ module.exports = async function() {
     }
   )
 
-  // const articles = contentBuilder(data.articles, (item, key) => key + 1, {
-  //   path: articleId => `article/${articleId}`,
-  //   component: '~/templates/article.vue'
-  // })
+  const articles = contentBuilder(data.articles, (item, key) => key + 1, {
+    path: articleId => `/article/${articleId}`,
+    component: '~/templates/article.vue',
+  })
 
-  const modules = [sources, dates]
+  const modules = [sources, dates, articles]
   return { modules, globals: { data } }
 }

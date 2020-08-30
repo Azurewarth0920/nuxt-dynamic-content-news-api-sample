@@ -22,6 +22,6 @@
     "axios": "^0.20.0",
     "dotenv": "^8.2.0",
     "nuxt": "^2.14.4",
-    "nuxt-dynamic-content": "0.0.1"
+    "nuxt-dynamic-content": "0.0.3"
   }
 }
